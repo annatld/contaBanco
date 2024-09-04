@@ -19,7 +19,7 @@ public class contaTerminal {
         System.out.println("Digite o número da agência (apenas números): ");
         agencia = scanner.nextLine();
 
-        //Formatando para que tenha "-" no antes do ultimo numero
+        //Formatando para que tenha "-" antes do ultimo numero
         if (agencia.length() >8) {
             agencia = agencia.substring(0,9 ) + "-" + agencia.substring(8);
         } else {
